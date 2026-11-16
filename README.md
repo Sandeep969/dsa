@@ -15,4 +15,8 @@ python3 scripts/dsa.py test      # run all solutions
 python3 scripts/dsa.py progress  # update the table below
 ```
 
-## Solved
+## Solved (1/144)
+
+| # | Problem | Difficulty | Topic | Date |
+|---|---|---|---|---|
+| 1 | [Two Sum](001-two-sum/) | Easy | Arrays & Hashing | 2026-11-16 |
