@@ -1,9 +1,9 @@
 {
-  "solved": 1,
+  "solved": 2,
   "total": 144,
-  "streak": 1,
-  "easy": 1,
+  "streak": 2,
+  "easy": 2,
   "medium": 0,
   "hard": 0,
-  "last_solved": "Two Sum"
+  "last_solved": "Contains Duplicate"
 }
