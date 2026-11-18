@@ -15,9 +15,10 @@ python3 scripts/dsa.py test      # run all solutions
 python3 scripts/dsa.py progress  # update the table below
 ```
 
-## Solved (2/144)
+## Solved (3/144)
 
 | # | Problem | Difficulty | Topic | Date |
 |---|---|---|---|---|
+| 3 | [Valid Anagram](003-valid-anagram/) | Easy | Arrays & Hashing | 2026-11-18 |
 | 2 | [Contains Duplicate](002-contains-duplicate/) | Easy | Arrays & Hashing | 2026-11-17 |
 | 1 | [Two Sum](001-two-sum/) | Easy | Arrays & Hashing | 2026-11-16 |

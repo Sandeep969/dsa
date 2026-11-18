@@ -1,9 +1,9 @@
 {
-  "solved": 2,
+  "solved": 3,
   "total": 144,
-  "streak": 2,
-  "easy": 2,
+  "streak": 3,
+  "easy": 3,
   "medium": 0,
   "hard": 0,
-  "last_solved": "Contains Duplicate"
+  "last_solved": "Valid Anagram"
 }
