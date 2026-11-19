@@ -1,9 +1,9 @@
 {
-  "solved": 3,
+  "solved": 4,
   "total": 144,
-  "streak": 3,
-  "easy": 3,
+  "streak": 4,
+  "easy": 4,
   "medium": 0,
   "hard": 0,
-  "last_solved": "Valid Anagram"
+  "last_solved": "Majority Element"
 }
