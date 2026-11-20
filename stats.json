@@ -1,9 +1,9 @@
 {
-  "solved": 4,
+  "solved": 5,
   "total": 144,
-  "streak": 4,
+  "streak": 5,
   "easy": 4,
-  "medium": 0,
+  "medium": 1,
   "hard": 0,
-  "last_solved": "Majority Element"
+  "last_solved": "Group Anagrams"
 }
