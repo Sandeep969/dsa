@@ -15,10 +15,11 @@ python3 scripts/dsa.py test      # run all solutions
 python3 scripts/dsa.py progress  # update the table below
 ```
 
-## Solved (5/144)
+## Solved (6/144)
 
 | # | Problem | Difficulty | Topic | Date |
 |---|---|---|---|---|
+| 6 | [Top K Frequent Elements](006-top-k-frequent-elements/) | Medium | Arrays & Hashing | 2026-11-21 |
 | 5 | [Group Anagrams](005-group-anagrams/) | Medium | Arrays & Hashing | 2026-11-20 |
 | 4 | [Majority Element](004-majority-element/) | Easy | Arrays & Hashing | 2026-11-19 |
 | 3 | [Valid Anagram](003-valid-anagram/) | Easy | Arrays & Hashing | 2026-11-18 |
