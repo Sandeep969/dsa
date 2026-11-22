@@ -1,9 +1,9 @@
 {
-  "solved": 6,
+  "solved": 7,
   "total": 144,
-  "streak": 6,
+  "streak": 7,
   "easy": 4,
-  "medium": 2,
+  "medium": 3,
   "hard": 0,
-  "last_solved": "Top K Frequent Elements"
+  "last_solved": "Product of Array Except Self"
 }
