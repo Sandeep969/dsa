@@ -1,9 +1,9 @@
 {
-  "solved": 8,
+  "solved": 9,
   "total": 144,
-  "streak": 8,
+  "streak": 9,
   "easy": 4,
-  "medium": 4,
+  "medium": 5,
   "hard": 0,
-  "last_solved": "Valid Sudoku"
+  "last_solved": "Longest Consecutive Sequence"
 }
