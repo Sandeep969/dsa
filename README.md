@@ -15,10 +15,11 @@ python3 scripts/dsa.py test      # run all solutions
 python3 scripts/dsa.py progress  # update the table below
 ```
 
-## Solved (9/144)
+## Solved (10/144)
 
 | # | Problem | Difficulty | Topic | Date |
 |---|---|---|---|---|
+| 10 | [Valid Palindrome](010-valid-palindrome/) | Easy | Two Pointers | 2026-11-25 |
 | 9 | [Longest Consecutive Sequence](009-longest-consecutive-sequence/) | Medium | Arrays & Hashing | 2026-11-24 |
 | 8 | [Valid Sudoku](008-valid-sudoku/) | Medium | Arrays & Hashing | 2026-11-23 |
 | 7 | [Product of Array Except Self](007-product-of-array-except-self/) | Medium | Arrays & Hashing | 2026-11-22 |

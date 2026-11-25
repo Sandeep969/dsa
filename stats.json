@@ -1,9 +1,9 @@
 {
-  "solved": 9,
+  "solved": 10,
   "total": 144,
-  "streak": 9,
-  "easy": 4,
+  "streak": 10,
+  "easy": 5,
   "medium": 5,
   "hard": 0,
-  "last_solved": "Longest Consecutive Sequence"
+  "last_solved": "Valid Palindrome"
 }
