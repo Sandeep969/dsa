@@ -1,9 +1,9 @@
 {
-  "solved": 10,
+  "solved": 11,
   "total": 144,
-  "streak": 10,
+  "streak": 11,
   "easy": 5,
-  "medium": 5,
+  "medium": 6,
   "hard": 0,
-  "last_solved": "Valid Palindrome"
+  "last_solved": "Two Sum II - Input Array Is Sorted"
 }
