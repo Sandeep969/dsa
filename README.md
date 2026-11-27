@@ -6,6 +6,8 @@ I'm going topic by topic: arrays/hashing, two pointers, sliding window, stack, b
 linked lists, trees, tries, heaps, backtracking, graphs, DP, greedy, intervals, math, bits.
 The full list I'm working through is in `roadmap.json` (144 problems).
 
+I also do the LeetCode daily challenge, those go in `daily/`.
+
 Each folder has `solution.py` (with a few test cases at the bottom) and `notes.md` with what I
 want to remember when revising.
 
@@ -31,3 +33,9 @@ python3 scripts/dsa.py progress  # update the table below
 | 3 | [Valid Anagram](003-valid-anagram/) | Easy | Arrays & Hashing | 2026-11-18 |
 | 2 | [Contains Duplicate](002-contains-duplicate/) | Easy | Arrays & Hashing | 2026-11-17 |
 | 1 | [Two Sum](001-two-sum/) | Easy | Arrays & Hashing | 2026-11-16 |
+
+## LeetCode daily (1)
+
+| Date | Problem | Difficulty |
+|---|---|---|
+| 2026-11-27 | [3946. Maximum Number of Items From Sale I](daily/2026-11-27-maximum-number-of-items-from-sale-i/) | Medium |
