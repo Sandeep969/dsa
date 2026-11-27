@@ -34,11 +34,23 @@ def next_problem():
     print(json.dumps({**p, "folder": f"{p['id']:03d}-{p['slug']}"}, indent=2))
 
 
+def daily_dirs():
+    # leetcode daily challenge, folders named YYYY-MM-DD-slug
+    return sorted(d for d in (ROOT / "daily").glob("*") if (d / "solution.py").exists())
+
+
+def daily_info(d):
+    # first line of notes.md: "# 3946. Some Title (Medium)"
+    first = (d / "notes.md").read_text().splitlines()[0].lstrip("# ").strip()
+    num_title, _, diff = first.rpartition(" (")
+    return d.name[:10], num_title, diff.rstrip(")")
+
+
 def test():
     failed = []
-    for d in solved_dirs():
+    for d in solved_dirs() + daily_dirs():
         r = subprocess.run([sys.executable, "-I", str(d / "solution.py")], capture_output=True, text=True)
-        print(("ok    " if r.returncode == 0 else "FAIL  ") + d.name)
+        print(("ok    " if r.returncode == 0 else "FAIL  ") + d.relative_to(ROOT).as_posix())
         if r.returncode:
             print(r.stdout + r.stderr)
             failed.append(d.name)
@@ -68,6 +80,13 @@ def progress():
     for p, folder, day in reversed(rows):
         table.append(f"| {p['id']} | [{p['title']}]({folder}/) | {p['difficulty']} | {p['topic']} | {day} |")
 
+    daily = [(d, *daily_info(d)) for d in daily_dirs()]
+    if daily:
+        table += ["", f"## LeetCode daily ({len(daily)})", "",
+                  "| Date | Problem | Difficulty |", "|---|---|---|"]
+        for d, day, title, diff in reversed(daily):
+            table.append(f"| {day} | [{title}](daily/{d.name}/) | {diff} |")
+
     readme = ROOT / "README.md"
     text = readme.read_text()
     head = text.split("## Solved")[0].rstrip()
@@ -82,6 +101,7 @@ def progress():
         "medium": diff["Medium"],
         "hard": diff["Hard"],
         "last_solved": rows[-1][0]["title"] if rows else None,
+        "daily": len(daily),
     }
     (ROOT / "stats.json").write_text(json.dumps(stats, indent=2) + "\n")
     print(stats)
