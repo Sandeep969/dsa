@@ -1,9 +1,9 @@
 {
-  "solved": 11,
+  "solved": 12,
   "total": 144,
-  "streak": 11,
+  "streak": 12,
   "easy": 5,
-  "medium": 6,
+  "medium": 7,
   "hard": 0,
-  "last_solved": "Two Sum II - Input Array Is Sorted"
+  "last_solved": "3Sum"
 }
