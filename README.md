@@ -35,8 +35,9 @@ python3 scripts/dsa.py progress  # update the table below
 | 2 | [Contains Duplicate](002-contains-duplicate/) | Easy | Arrays & Hashing | 2026-11-17 |
 | 1 | [Two Sum](001-two-sum/) | Easy | Arrays & Hashing | 2026-11-16 |
 
-## LeetCode daily (1)
+## LeetCode daily (2)
 
 | Date | Problem | Difficulty |
 |---|---|---|
+| 2026-11-28 | [3947. Maximum Number of Items From Sale II](daily/2026-11-28-maximum-number-of-items-from-sale-ii/) | Medium |
 | 2026-11-27 | [3946. Maximum Number of Items From Sale I](daily/2026-11-27-maximum-number-of-items-from-sale-i/) | Medium |
