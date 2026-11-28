@@ -1,10 +1,10 @@
 {
-  "solved": 12,
+  "solved": 13,
   "total": 144,
-  "streak": 12,
+  "streak": 13,
   "easy": 5,
-  "medium": 7,
+  "medium": 8,
   "hard": 0,
-  "last_solved": "3Sum",
+  "last_solved": "Container With Most Water",
   "daily": 1
 }

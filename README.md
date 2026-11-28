@@ -17,10 +17,11 @@ python3 scripts/dsa.py test      # run all solutions
 python3 scripts/dsa.py progress  # update the table below
 ```
 
-## Solved (12/144)
+## Solved (13/144)
 
 | # | Problem | Difficulty | Topic | Date |
 |---|---|---|---|---|
+| 13 | [Container With Most Water](013-container-with-most-water/) | Medium | Two Pointers | 2026-11-28 |
 | 12 | [3Sum](012-3sum/) | Medium | Two Pointers | 2026-11-27 |
 | 11 | [Two Sum II - Input Array Is Sorted](011-two-sum-ii-input-array-is-sorted/) | Medium | Two Pointers | 2026-11-26 |
 | 10 | [Valid Palindrome](010-valid-palindrome/) | Easy | Two Pointers | 2026-11-25 |
